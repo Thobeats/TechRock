@@ -1,0 +1,283 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.active{
+    color: #1f91f1 !important;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+
+.landing-view{
+    height: 100vh;
+    border: 1px solid;
+    padding-top: 5px;
+    background-image: url('../img/landing-view/pexels-daniel.jpg');
+    background-size: cover;
+}
+
+.header-container{
+    width: 100%;
+    z-index: 10;
+    margin-top: -3px;
+}
+.bg-light{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.social-media i {
+    padding : 5px;
+    color :  #ccc;
+    position: relative;
+    top: 20px;
+}
+
+.header-container .nav-link {
+    color : #c7cbd1;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.header-container a:hover{
+    color: #1f91f1;
+}
+
+.landing-content{
+    position: relative;
+    left: 70px;
+    top: 40vh;
+}
+
+.landing-content .slogan{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    color: #c7cbd1;
+}
+
+.landing-content .welcome{
+    font-size: 20px;
+    color: #c7cbd1;
+}
+
+.header-container{
+    padding : 10px 40px;
+}
+
+.nav-item{
+    padding: 5px;
+}
+
+#about-us{
+    height: 100vh;
+    background-color: #fff;
+    padding : 5px;
+    margin-bottom: 5px;
+}
+
+.about{
+    margin-top: 100px;
+    padding: 5px 5em;
+    margin-left : 15px;
+}
+
+.about-content{
+    padding : 5px;
+}
+
+.about-content .heading {
+    margin-left: 80px;
+    font-size: xx-large;
+    font-family: 'Merriweather Sans', sans-serif;
+    color : #1f91f1;
+}
+
+.about-content .content{
+    margin-left: 80px;
+    line-height: 2em;
+
+}
+
+.extra-content{
+    margin-top : 30px;
+    line-height: 2em;
+}
+
+#services{
+    padding : 5px;
+    height : 300vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color : #1f91f1;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.services-container{
+    margin-top : 100px;
+    padding : 5px 1em;
+}
+
+.card{
+    border: none !important;
+}
+
+.card a{
+    color : #497091;
+    font-weight: 700;
+}
+
+.card a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#contact-us{
+    height: auto;
+    margin-top : -690px;
+    margin-bottom: 100px;
+}
+
+.contact-container{
+    margin-top: 200px;
+}
+
+.contact-intro{
+    padding : 10px;
+    position: relative;
+    top : 15em;
+    left : 2em;
+    width : 35em;
+}
+
+.contact-intro p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.form-intro{
+    margin-top : 3em;
+    padding : 5em;
+    position: relative;
+}
+
+.form {
+    padding : 3px 5em;
+    font-family: 'Space Mono', monospace;
+    font-size : 20px;
+}
+
+.form input, textarea{
+    padding : 5px;
+    font-weight: 800;
+}
+
+.form-group{
+    padding : 5px;
+}
+
+.btn {
+    width : 15em;
+    padding: 3em;
+    font-size: large !important;
+    border-radius: 50px !important;
+} 
+
+.news-letter{
+    height : auto;
+    padding : 3em 2em;
+    margin : 20px 0px;
+    background-color: #1085e6;
+}
+
+.news-letter input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width : 70%;
+    background-color: inherit;
+    text-transform: capitalize;
+    font-size: larger;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: rgb(179, 175, 148);
+    display: inline-block;
+}
+
+.news-letter button{
+    width: 9em !important;
+    padding : 15px 3px;
+    border-radius: 50px !important;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: inherit;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+footer{
+    height: auto;
+    padding : 3em 4em 2em;
+}
+
+.footer-content{
+    padding : 0 0 2em 0;
+}
+
+footer .nav{
+    padding: 2em 0 0 0;
+    cursor: pointer;
+}
+.footer-logo h6{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.footer-social-media,footer span{
+    padding : 3px;
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.top-link {
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background:  #1085e6;
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+    color: var(--clr-white);
+    animation: bounce 2s ease-in-out infinite;
+  
+    visibility: hidden;
+    z-index: -100;
+  }
+  .show-link {
+    visibility: visible;
+    z-index: 100;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
